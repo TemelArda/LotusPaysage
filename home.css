@@ -7,8 +7,10 @@ body, html {
   margin: 0;
 }
 #header{
-  height: 100%;
-
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
 }
 .hero-image{
   background-image: url("Lotus_HeroImage.jpg");
@@ -23,14 +25,13 @@ body, html {
   background-color: #59334C;
   height: 14%;
   width: 100%;
-  position: fixed;
+  position: relative;
 }
 #navbar #logo{
   float: left;
-  position:relative;
   max-width: 100%;
   height: auto;
-  overflow: visible;
+  overflow-y: scroll;
   margin-left: 5%;
 }
 #navbar #Contact{
@@ -73,20 +74,27 @@ body, html {
   transform: translate(-50%, -50%);
   color: white;
 }
+#content{
+  position: absolute;
+  top: 100vh;
+}
 #AboutUs{
   display: block;
   width: 25%;
   margin: auto;
   margin-top: 3%;
   font-family: 'BioRhyme', serif;
+  position: relative;
 }
 #AboutUs h3{
   color: #59334C;
   font-weight: lighter;
   font-style: italic;
   font-size: 1.5em;
+  position: relative;
 }
 #AboutUs hr{
   border: 0.1em solid #A66F9A;
   border-radius: 5px;
+  position:relative;
  }
