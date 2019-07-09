@@ -4,13 +4,21 @@ body, html {
   margin: 0;
 }
 #cover{
-  background-image: url('Lotus_HeroImage.jpg');
+  background-image: url('lotus_bg01.jpg');
+  height:100%;
+  max-width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
+
 #title{
   font-size: 2.0em;
   font-family: 'Eczar', serif;
   color: black;
+}
+#hori-rule{
+  border-top: 3px;
+  width: 15vw;
+  border-style: solid;
 }
