@@ -19,8 +19,9 @@ body, html {
 #card{
   font-family: 'Playfair Display', serif;
   font-weight: normal;
-background-color: rgba(89, 51, 76, 0.5);
-box-shadow: 5px 5px 10px #000000;
+  width: 75%;
+  background-color: rgba(89, 51, 76, 0.5);
+  box-shadow: 5px 5px 10px #000000;
 }
 #card:hover{
 background-color: #594452;
@@ -39,4 +40,9 @@ box-shadow: 15px 15px 15px #000000;
   border-radius: 10px;
   width: 15vw;
   border-style: solid;
+}
+@media only screen and (max-width: 800px) {
+  #card {
+    width: 100%;
+  }
 }
