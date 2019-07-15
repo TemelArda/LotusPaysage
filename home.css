@@ -3,7 +3,7 @@ body, html {
   height: 100%;
   margin: 0;
 }
-#cover{
+.view{
   background-image: url('Images/lotus_bg01.jpg');
   height:100%;
   max-width: 100%;
@@ -20,13 +20,13 @@ body, html {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: lighter;
   font-style: italic;
-  color: black;
+  color:white;
 }
 #sub-title{
   font-size: 2.5em;
   font-family: 'Josefin Slab', serif;
   font-weight: bold;
-  color: black;
+  color: white;
 }
 #card{
   font-family: 'Josefin Slab', serif;
@@ -49,12 +49,19 @@ box-shadow: 15px 15px 15px #000000;
   border-top: 3px;
   width: 15vw;
   border-style: solid;
+  border-color: white;
 }
 #card-h-rule{
   border-top: 5px;
   border-radius: 10px;
   width: 15vw;
   border-style: solid;
+}
+#phil-title{
+  font: 'Josefin Slab', serif;
+  font-size: 2.0em;
+
+  color: #663A57;
 }
 @media only screen and (max-width: 800px) {
   #title{

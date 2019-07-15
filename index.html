@@ -13,9 +13,6 @@
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Josefin+Slab&display=swap" rel="stylesheet">
     <!-- SCRIPTS -->
-    <script>
-    new Wow().init();
-    </script>
     <scriptsrc="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <scriptsrc="https://cdnjs.cloudflare.com/ajax/libs/web-animations/2.2.2/web-animations.min.js"></script>
     <!-- JQuery -->
@@ -28,17 +25,19 @@
     <script type="text/javascript" src="js/mdb.min.js"></script>
   </head>
   <body>
-      <div id=cover class="container-fluid px-sm-5 py-sm-3 ">
-        <div class="row d-flex justify-content-start">
-          <img id=logo src="Images\logo.png" alt="John Doe" class="img-fluid " style="max-width: 50%;">
-        </div>
-        <div class="row align-items-center h-75">
+    <div class="view">
+      <div class="mask rgba-stylish-light align-items-center">
+        <div id=cover class="container-fluid px-sm-5 py-sm-3 ">
+          <div class="row d-flex justify-content-start">
+            <img id=logo src="Images\logo.png" alt="John Doe" class="img-fluid " style="max-width: 50%;">
+          </div>
+          <div class="row align-items-center h-75">
           <div id='col1'class="col-sm-6">
-              <div class="pr-0 mx-auto">
-                <h1 id="title" class="animated fadeInUp">Landscape & Desing</h1>
-                <hr id=hori-rule>
-                <h4 id='sub-title'class="animated fadeInUp delay-1s">Where art meets nature</h4>
-              </div>
+            <div class="pr-0 mx-auto">
+              <h1 id="title" class="animated fadeInUp">Landscape & Desing</h1>
+              <hr id=hori-rule>
+              <h4 id='sub-title'class="animated fadeInUp delay-1s">Where art meets nature</h4>
+            </div>
           </div>
           <div id='col2'class="col-sm-6">
             <div id='card' class="card border-0 rounded py-sm-4 text-white animated slideInRight">
@@ -83,6 +82,8 @@
             </div>
           </div>
         </div>
+     </div>
+   </div>
   </div>
-  </body>
+ </body>
 </html>
