@@ -1,7 +1,20 @@
-body, html {
+body, html, header,.view{
   text-align: center;
   height: 100%;
   margin: 0;
+}
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+     background-image: linear-gradient(to left, #59253A, #895061);
+}
+.nav-item{
+  padding-right: 3%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: normal;
+  font-size: 1.3em;
 }
 .view{
   background-image: url('Images/lotus_bg01.jpg');
@@ -12,8 +25,15 @@ body, html {
   background-size: cover;
 }
 #logo{
-  width: 8%;
+  width: 100%;
   height: auto;
+}
+#contact{
+  font-family: 'Josefin Slab', serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  color:#59253A;
+
 }
 #title{
   font-size: 3.0em;
@@ -32,29 +52,31 @@ body, html {
   font-family: 'Josefin Slab', serif;
   font-weight: normal;
   width: 75%;
-  background-color: rgba(89, 51, 76, 0.5);
+  background-color: rgba(89, 37, 58, 0.5);
   box-shadow: 5px 5px 10px #000000;
   -webkit-transition: all 0.6s;
  transition: all 0.6s ;
 }
 #card:hover{
-background-color: #663A57;
+  background-color:rgba(89, 37, 58, 1);
 box-shadow: 15px 15px 15px #000000;
  transform: scale(1.05, 1.05);
 }
 #cardtext{
   font-size: 1.2em;
+  color: white;
 }
 #hori-rule{
   border-top: 3px;
   width: 15vw;
   border-style: solid;
-  border-color: white;
+  border-color: rgba(89, 37, 58, 1);
 }
 #card-h-rule{
   border-top: 5px;
   border-radius: 10px;
-  width: 15vw;
+  border-color: #895061;
+  width: 4vw;
   border-style: solid;
 }
 #phil-title{
