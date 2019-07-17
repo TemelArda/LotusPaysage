@@ -25,7 +25,7 @@ body, html, header,.view{
   background-size: cover;
 }
 #logo{
-  width: 100%;
+  max-width: 10%;
   height: auto;
 }
 #contact{
@@ -63,7 +63,7 @@ box-shadow: 15px 15px 15px #000000;
  transform: scale(1.05, 1.05);
 }
 #cardtext{
-  font-size: 1.2em;
+  font-size: 1.0em;
   color: white;
 }
 #hori-rule{
@@ -90,7 +90,7 @@ box-shadow: 15px 15px 15px #000000;
     font-size: 2.0em;
   }
   #logo{
-    width: 18%;
+    max-width: 25%;
     height: auto;
   }
   #sub-title{
