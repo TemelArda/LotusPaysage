@@ -3,75 +3,124 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- BOOTSTRAP-->
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      <!-- Bootstrap core CSS -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <!-- Material Design Bootstrap -->
+      <link href="css/mdb.min.css" rel="stylesheet">
+      <!-- Stylings CSS -->
      <link rel="stylesheet" href="home.css">
+     <!-- FONTS -->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+     integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Josefin+Slab&display=swap" rel="stylesheet">
+    <!-- SCRIPTS -->
+    <scriptsrc="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <scriptsrc="https://cdnjs.cloudflare.com/ajax/libs/web-animations/2.2.2/web-animations.min.js"></script>
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
   </head>
   <body>
-      <div id=cover class="container-fluid p-5 ">
-        <div class="row align-items-center h-75">
-          <div id='col1'class="col-sm-6">
-            <div class="media">
-              <img src="logo.png" alt="John Doe" class="align-self-center" style="max-width: 50%;">
-              <div class="media-body pr-0 mr-3">
-                <h1 id="title">Lotus Landscape & Desing</h1>
-                <hr id=hori-rule>
-                <h4 id='sub-title'>Where art meets nature</h4>
-              </div>
-            </div>
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar justify-content-end">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <div class="navbar-text white-text mr-auto py-sm-2">
+             <i class="fas fa-paper-plane fa-lg mb-sm-4"></i>  <a href="#"> info@gmail.com</a> <br>
+            <i class="fas fa-phone fa-lg"></i> <span> +90 537 410 5449</span>
           </div>
-          <div id='col2'class="col-sm-6 my-sm-3">
-            <div id='card' class="card border-0 mt-lg-5 rounded py-sm-4 text-white">
-              <div class="card-header py-sm-0">
-                <div id="demo" class="carousel slide " data-ride="carousel">
-                  <!-- Indicators -->
-                  <ul class="carousel-indicators">
-                    <li data-target="#demo" data-slide-to="0" class="active"></li>
-                    <li data-target="#demo" data-slide-to="1"></li>
-                    <li data-target="#demo" data-slide-to="2"></li>
-                  </ul>
-                  <!-- The slideshow -->
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img class="img-fluid" src="LotusImage01.jpg" alt="Lotus Peyzaj">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="img-fluid" src="LotusImage02.jpg" alt="Lotus Peyzaj">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="img-fluid" src="LotusImage03.jpg" alt="Lotus Peyzaj">
-                    </div>
-                  </div>
-                  <!-- Left and right controls -->
-                  <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                  </a>
-                  <a class="carousel-control-next" href="#demo" data-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                  </a>
-                </div>
-              </div>
-              <div class="card-body py-sm-0">
-                <h2 id=cardtitle class="card-title mt-sm-2 mb-0">About Us</h2>
-                <hr id=card-h-rule class="mx-auto pt-0">
-                <h6 id=cardtext class="card-text">Lotus Peyzaj Planlama is established in 1995
-                  with the aim of providing an original and imaginative design consultancy,
-                   offering clients a high quality professional and personal
-                   service in all aspects of landscape design,
-                   management and implementation. </h6>
-              </div>
-            </div>
-          </div>
+          <ul class="navbar-nav mr-5 pr-3 py-2">
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Profile</a>
+              </li>
+            </ul>
         </div>
-  </div>
-  </body>
+      </nav>
+    <div class="view">
+       <div class="mask rgba-stylish-light align-items-center">
+         <div id='cover' class="container-fluid px-sm-5 py-sm-3 ">
+           <div class="row d-flex justify-content-start pb-sm-5">
+             <div class="col-sm-12  d-flex align-items-center">
+                <img id='logo' src="Images\logo.png" alt="Lotus Logo" class="img-fluid mx-auto">
+             </div>
+           </div>
+           <div class="row align-items-center mt-3 h-75">
+           <div id='col1'class="col-sm-6">
+             <div class="pr-0 mx-auto">
+               <h1 id="title" class="animated fadeInUp">Landscape & Desing</h1>
+               <hr id='hori-rule'>
+               <h4 id='sub-title'class="animated fadeInUp delay-1s">Where art meets nature</h4>
+             </div>
+           </div>
+           <div id='col2'class="col-sm-6">
+             <div id='card' class="card border-0 rounded py-sm-4 text-white animated slideInRight">
+               <div class="card-header py-sm-0">
+                 <div id="demo" class="carousel slide " data-ride="carousel">
+                   <!-- Indicators -->
+                   <ul class="carousel-indicators">
+                     <li data-target="#demo" data-slide-to="0" class="active"></li>
+                     <li data-target="#demo" data-slide-to="1"></li>
+                     <li data-target="#demo" data-slide-to="2"></li>
+                   </ul>
+                   <!-- The slideshow -->
+                   <div class="carousel-inner">
+                     <div class="carousel-item active">
+                       <img class="img-fluid" src="Images\LotusImage01.jpg" alt="Lotus Peyzaj">
+                     </div>
+                     <div class="carousel-item">
+                       <img class="img-fluid" src="Images\LotusImage02.jpg" alt="Lotus Peyzaj">
+                     </div>
+                     <div class="carousel-item">
+                       <img class="img-fluid" src="Images\LotusImage03.jpg" alt="Lotus Peyzaj">
+                     </div>
+                   </div>
+                   <!-- Left and right controls -->
+                   <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                     <span class="carousel-control-prev-icon"></span>
+                   </a>
+                   <a class="carousel-control-next" href="#demo" data-slide="next">
+                     <span class="carousel-control-next-icon"></span>
+                   </a>
+                 </div>
+               </div>
+               <div class="card-body py-sm-0">
+                 <h2 id='cardtitle' class="card-title mt-sm-2 mb-0">About Us</h2>
+                 <hr id='card-h-rule' class="mx-auto pt-0">
+                 <h3 id='cardtext' class="card-text">Lotus landscape and design is established in 1995
+                   with the aim of providing an original and imaginative design consultancy,
+                    offering clients a high quality professional and personal
+                    service in all aspects of landscape design,
+                    management and implementation. </h3>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+      </div>
+    </div>
+  </header>
+   <main>
+     <i class="fas fa-camera-retro"></i> fa-camera-retro
+     <p>Our vision is to keep your environment as beautiful as nature intended it to be. We work with you to help make your landscape vision a reality. Respectful of architectural style and responsive to ecological context, our gardens are engaging, richly detailed backdrops for our clients’ lives and are expressions of how they live.
+
+OUR MISSION
+We believe that at the heart of every successful landscape project is the dynamic collaboration between client and designer. The excitement and enthusiasm for a project, the synthesis of ideas, and the commitment to superlative quality, inspire the creation of an expressive, wonderfully crafted outdoor environment.
+
+</p>
+   </main>
+ </body>
 </html>

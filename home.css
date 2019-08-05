@@ -1,56 +1,97 @@
-body, html {
+body, html, header,.view{
   text-align: center;
   height: 100%;
   margin: 0;
 }
-#cover{
-  background-image: url('lotus_bg01.jpg');
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+     background-image: linear-gradient(to left, #59253A, #895061);
+}
+.nav-item{
+  padding-right: 3%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: normal;
+  font-size: 1.3em;
+}
+.view{
+  background-image: url('Images/lotus_bg01.jpg');
   height:100%;
   max-width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
+#logo{
+  max-width: 10%;
+  height: auto;
+}
+#contact{
+  font-family: 'Josefin Slab', serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  color:#59253A;
+
+}
 #title{
-  font-size: 2.5em;
+  font-size: 3.0em;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: lighter;
   font-style: italic;
-  color: black;
+  color:white;
 }
 #sub-title{
+  font-size: 2.5em;
   font-family: 'Josefin Slab', serif;
   font-weight: bold;
-  color: black;
+  color: white;
 }
 #card{
   font-family: 'Josefin Slab', serif;
   font-weight: normal;
   width: 75%;
-  background-color: rgba(89, 51, 76, 0.5);
+  background-color: rgba(89, 37, 58, 0.5);
   box-shadow: 5px 5px 10px #000000;
   -webkit-transition: all 0.6s;
  transition: all 0.6s ;
 }
 #card:hover{
-background-color: #663A57;
+  background-color:rgba(89, 37, 58, 1);
 box-shadow: 15px 15px 15px #000000;
  transform: scale(1.05, 1.05);
+}
+#cardtext{
+  font-size: 1.0em;
+  color: white;
 }
 #hori-rule{
   border-top: 3px;
   width: 15vw;
   border-style: solid;
+  border-color: rgba(89, 37, 58, 1);
 }
 #card-h-rule{
   border-top: 5px;
   border-radius: 10px;
-  width: 15vw;
+  border-color: #895061;
+  width: 4vw;
   border-style: solid;
+}
+#phil-title{
+  font: 'Josefin Slab', serif;
+  font-size: 2.0em;
+
+  color: #663A57;
 }
 @media only screen and (max-width: 800px) {
   #title{
     font-size: 2.0em;
+  }
+  #logo{
+    max-width: 25%;
+    height: auto;
   }
   #sub-title{
     font-size: 1.5em;
